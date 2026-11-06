@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My<span>Portfolio.</span></h2>
+
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Halo, Saya <span>SURIADI</span></h1>
+
+            <h2>Student | Web Developer</h2>
+
+            <p class="description">
+                Saya adalah seseorang yang memiliki ketertarikan
+                dalam dunia teknologi, desain, dan pengembangan website.
+                Saya senang belajar dan menciptakan sesuatu yang baru.
+            </p>
+
+            <a href="#about" class="btn">Kenali Saya</a>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-circle">
+                <img src="images/profil.jpg" alt="Foto Profil Saya">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>Tentang Saya</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-box">
+                <h3>Siapa Saya?</h3>
+                <p>
+                    Halo! Nama saya Suriadi. Saya merupakan seorang
+                    pelajar yang tertarik mempelajari teknologi,
+                    khususnya dalam bidang pembuatan website.
+                    Saya terus mengembangkan kemampuan dan pengalaman
+                    untuk menjadi lebih baik.
+                </p>
+            </div>
+
+            <div class="about-info">
+                <p><strong>Nama:</strong> Suriadi</p>
+                <p><strong>Status:</strong> Mahasiswa</p>
+                <p><strong>Keahlian:</strong> Web Development</p>
+                <p><strong>Email:</strong> abangsendana@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <div class="section-title">
+            <p>MY ABILITIES</p>
+            <h2>Keahlian Saya</h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Membuat struktur dan konten website.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Mendesain tampilan website agar menarik.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>PHP</h3>
+                <p>Membuat website lebih dinamis.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>UI Design</h3>
+                <p>Mempelajari desain antarmuka pengguna.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+        <div class="section-title">
+            <p>MY RECENT WORK</p>
+            <h2>Project Saya</h2>
+        </div>
+
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>Website Portfolio</h3>
+                <p>
+                    Website pribadi untuk menampilkan profil,
+                    keahlian, dan hasil karya saya.
+                </p>
+                <span>HTML • CSS • PHP</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>Website Landing Page</h3>
+                <p>
+                    Halaman website sederhana dengan desain
+                    modern dan responsif.
+                </p>
+                <span>HTML • CSS</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+                <h3>Project Berikutnya</h3>
+                <p>
+                    Tempat untuk menampilkan project yang
+                    akan saya buat selanjutnya.
+                </p>
+                <span>Coming Soon</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="section-title">
+            <p>LET'S CONNECT</p>
+            <h2>Hubungi Saya</h2>
+        </div>
+
+        <p class="contact-description">
+            Punya pertanyaan atau ingin bekerja sama?
+            Silakan kirim pesan melalui formulir berikut.
+        </p>
+
+        <form action="proses.php" method="POST" class="contact-form">
+            <input type="text" name="nama"
+                   placeholder="SURIADI" required>
+
+            <input type="email" name="abangsendana@gmail.com"
+                   placeholder="Alamat email" required>
+
+            <textarea name="pesan" rows="5"
+                      placeholder="Tulis pesan kamu..." required></textarea>
+
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>My<span>Portfolio.</span></h3>
+        <p>Terima kasih sudah mengunjungi website portfolio saya.</p>
+        <p class="copyright">
+            &copy; 2026 Nama Kamu. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
